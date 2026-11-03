@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/@mnaoumov/obsidian-dev-toolkit/dist/templates/dprint.json",
+  "excludes": [
+    "dist",
+    "**/node_modules",
+    "**/*-lock.json",
+    "**/*.md",
+    "demo-vault"
+  ],
+  "typescript": {
+    "useBraces": "always"
+  }
+}

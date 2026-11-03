@@ -1,0 +1,11 @@
+{
+  "author": "mnaoumov",
+  "authorUrl": "https://github.com/mnaoumov/",
+  "description": "Run the next command sharing a hotkey when the first command is unavailable.",
+  "fundingUrl": "https://www.buymeacoffee.com/mnaoumov",
+  "id": "hotkey-fallback",
+  "isDesktopOnly": true,
+  "minAppVersion": "1.15.0",
+  "name": "Hotkey Fallback",
+  "version": "0.1.0"
+}
