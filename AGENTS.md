@@ -12,4 +12,4 @@ This plugin has no settings. Bind commands through Obsidian's Hotkeys settings; 
 
 Run the standard workspace gate and the desktop behavioral integration suite with one worker. Verify the internals patch against both public-latest and catalyst-latest. The desktop suite must drive trusted key presses and prove unload restores native dispatch.
 
-The local dprint override requires control-flow braces, matching ESLint's `curly` rule. The shared formatter otherwise removes short braces that the linter requires.
+The local `dprint` override requires control-flow braces, matching `ESLint`'s `curly` rule. The shared formatter otherwise removes short braces that the linter requires.
