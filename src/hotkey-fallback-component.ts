@@ -1,12 +1,12 @@
 import type { App } from 'obsidian';
 
+import { ComponentEx } from '@mnaoumov/obsidian-lib/components/component-ex';
 import { MonkeyAroundComponent } from '@mnaoumov/obsidian-lib/components/monkey-around-component';
-import { Component } from 'obsidian';
 
 /**
  * Lets native hotkey dispatch continue past an unavailable command.
  */
-export class HotkeyFallbackComponent extends Component {
+export class HotkeyFallbackComponent extends ComponentEx {
   private isHandlingHotkey = false;
 
   public constructor(private readonly app: App) {
