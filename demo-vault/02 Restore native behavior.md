@@ -12,7 +12,7 @@ require('/demoSetup.ts').cleanup(app);
 'Demonstration commands removed';
 ```
 
-Manual equivalent: clear both `Hotkey Fallback demo` bindings in Settings, Hotkeys. The demonstration commands are temporary and disappear on restart.
+Manual equivalent: clear both `Shared hotkey demo` bindings in Settings, Hotkeys. The demonstration commands are temporary and disappear on restart.
 
 ## Disable the plugin
 
